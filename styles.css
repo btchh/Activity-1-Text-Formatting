@@ -25,7 +25,7 @@
 }
 
 body {
-  background-image: url("bg.gif");
+  background-image: url("./Assets/bg.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -142,4 +142,14 @@ a {
 a:hover {
   color: var(--highlight-var);
   font-size: 1.05rem;
+}
+
+.pic-size {
+  width: 100%;
+  height: auto;
+}
+
+.fc-text {
+  text-align: center;
+  color: var(--cloud);
 }
